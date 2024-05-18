@@ -1,0 +1,142 @@
+.cart-top {
+    display: flex;
+    width: 536px;
+    position: relative;
+    top: -98px;
+    left: 197%;
+    justify-content: space-around;
+    font-size: 25p
+}
+
+.cart-top-nd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-top-nd i {
+    margin-right: 5px;
+}
+
+.vacnchuyen-content {
+    display: flex;
+}
+
+.content-left {
+    width: 40%;
+}
+
+.content-left-login {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.content-left-login p {
+    margin: 0 10px;
+}
+
+.content-left-input {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 20px;
+}
+
+.content-left-input-items input {
+    border: 1px solid #3333;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 196, 207, 0.5);
+    direction: rtl;
+    /* Thiết lập hướng từ phải qua trái */
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content-left-input-items input:hover {
+    border: 1px solid black;
+    transition: 0.8s
+}
+
+.content-left-input2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 0;
+}
+
+.content-left-input2 a {
+    height: 50px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 38px;
+    background-color: #9c1515;
+    color: #fff;
+    font-size: 18px;
+}
+
+.content-left-input2 a:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.content-button-form {
+    margin-top: 30px;
+}
+
+.content-right {
+    width: 60%;
+    border-left: 2px solid #dddd;
+    padding-left: 12px;
+    height: auto;
+}
+
+.content-right table {
+    width: 100%;
+    text-align: center;
+}
+
+.content-right tr th {
+    border-bottom: 2px solid #dddd;
+    padding-bottom: 12px;
+}
+
+.content-right table tr td {
+    padding: 10px 0;
+}
+
+.content-right tr th:nth-child(4) {
+    text-align: right;
+}
+
+.content-right tr th:first-child {
+    text-align: left;
+}
+
+.content-right table tr td:last-child {
+    text-align: right;
+}
+
+.content-right table tr td:first-child {
+    text-align: left;
+
+}
+
+.content-right table tr:nth-child(3) {
+    display: flex;
+    width: 217%;
+    justify-content: space-between;
+}
+
+.content-right table tr:nth-child(4) {
+    display: flex;
+    width: 217%;
+    justify-content: space-between;
+}

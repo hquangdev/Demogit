@@ -1,0 +1,93 @@
+#background-login {
+    background-image: url(https://img6.thuthuatphanmem.vn/uploads/2022/06/22/anh-nen-o-to-4k_041556623.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 788px;
+    background-size: contain;
+    width: 100%;
+}
+
+/* form{
+margin-right: 250px;
+margin-top:50px ;
+width: 500px;
+height: 500px;
+}
+
+button{
+background-color: #ee4d2d;
+color: white;
+} */
+
+.form-container {
+    width: 500px;
+    height: 673p x;
+    float: right;
+    margin-right: 15%;
+    text-align: center;
+    background-color: white;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    /* Hiệu ứng nhấp nháy */
+    animation: blink 1s infinite alternate;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 70%;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    height: 41px;
+    margin: 18px 0;
+}
+
+input[type="tel"],
+input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.hr1 {
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    display: inline;
+    align-items: center;
+}
+
+.hoac {
+    color: #ccc;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    color: steelblue;
+    font-size: 18px;
+}
+
+/*-------------dang ki-------------------------*/
